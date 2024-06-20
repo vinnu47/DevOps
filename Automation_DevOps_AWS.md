@@ -36,3 +36,8 @@
 > **Workers** should be used for long-running tasks.  
 
 ![alt text](./Images/image5.png)
+
+
+ ## Continuous Integration & Continous Delivery
+
+ ![alt text](./Images/image6.png)
