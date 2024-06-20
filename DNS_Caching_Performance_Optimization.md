@@ -15,7 +15,7 @@ Factors that contribute to network latency include:
 - Processing Delay: the time routers or switches take to process the packet  
 
 ## The Domain Name System(DNS)
- www.example.com.  
+ **www.example.com.**  
 > The root domain is represented by a "." and is not usually visible in a DNS name   
 > **com** is an example of a Top-Level Domain  
 > **Example** is a subdomain  
@@ -30,7 +30,7 @@ mail.google.com.
 ## DNS Zones and Records
   
 | Record Type |                                   Description                                          |
-|------------:|----------------------------------------------------------------------------------------|
+|:------------|----------------------------------------------------------------------------------------|
 |A            | Maps a domain name to an IP address (e.g. dctlabs.com to 54.23.23.43)                  |
 |CNAME        | Maps a domain name to another domain name (e.g. mail.dctlabs.com to mailserver1.net)   |
 |MX           | Returns the mail servers for a domain name                                             |
@@ -46,7 +46,7 @@ mail.google.com.
 ## Route 53 Routing Polices  
   
 |   Routing Policy  |                               what it does                                         |
-|------------------:|------------------------------------------------------------------------------------|
+|:------------------|------------------------------------------------------------------------------------|
 |       Simple      |Simple DNS response providig the IP address associated with a names                 |
 |      Failover     |  If primary is down(based on health checks), routes to secondary destination       |
 |    Geolocation    | Uses geographic location client is in (e.g. Europe) to route to the closest region |

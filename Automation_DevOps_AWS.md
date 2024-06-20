@@ -31,9 +31,9 @@
 
 ![alt text](./Images/image4.png)
 
-> **Web Servers** are standard applications that listen for and then process HTTP requests, typically over port 80.  
-> **Workers** are specialized applications that have a background processing task that listens for messages on an Amazon SQS queue.  
-> **Workers** should be used for long-running tasks.  
+> - **Web Servers** are standard applications that listen for and then process HTTP requests, typically over port 80.  
+> - **Workers** are specialized applications that have a background processing task that listens for messages on an Amazon SQS queue.  
+> - **Workers** should be used for long-running tasks.  
 
 ![alt text](./Images/image5.png)
 
