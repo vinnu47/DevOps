@@ -23,9 +23,9 @@ Factors that contribute to network latency include:
 
 Support.amazon.com.  
 mail.google.com.  
-> **support** is a subdomain of amazon.com
-> **mail** is a subdomain of google.com
-> A **subdomain** is subdivision of a domain name for organizing a set of related resources or services
+> **support** is a subdomain of amazon.com  
+> **mail** is a subdomain of google.com  
+> A **subdomain** is subdivision of a domain name for organizing a set of related resources or services  
 
 ## DNS Zones and Records
   
