@@ -1,12 +1,12 @@
 ## Bandwidth   
   
-> - Bandwidth is the rate of data transfer for a fixed period of time measured in Gbps  
-> - Bandwith can be considered the width of the communication band
+>  Bandwidth is the rate of data transfer for a fixed period of time measured in Gbps  
+>  Bandwith can be considered the width of the communication band
 
 ## Latency
   
-> - Latency is the amount of time it takes to send data from one point to another measured in microseconds or milliseconds    
-> - Greater distance = higher latency  
+>  Latency is the amount of time it takes to send data from one point to another measured in microseconds or milliseconds    
+>  Greater distance = higher latency  
   
 Factors that contribute to network latency include:    
 - Propagation Delay: the time it takes for the signal to travel from souce to destination (primarily determined by distance)    
