@@ -75,4 +75,33 @@ mail.google.com.
 - Integrates with AWS Shield and AWS WAF for additional security protection  
 - Content can also be protected with features including signed cookies, signed URLs, and origin access identiy (OAI)
 
+## S3 bucket Policy for static website
+
+```
+{
+    "Version: "2012-10-17",
+    "Statement":[
+        {
+            "sid":"Statement1",
+            "Principal":"*",
+            "Effect":"Allow",
+            "Action":S3.GetObject",
+            "Resource":"<Bucket ARN/*>"
+        }
+    ]
+}
+
+```
+
+## AWS Global Accelerator
+
+![alt text](./Images/image9.png)  
+
+- **Network Layer**: Operates at the network layer(Layer 4 of the OSI model)  
+- **IP Address**: Provides static IP addresses as a fixed entry point to your applications  
+- **performance**:improves performance by leveraging the AWS global netork backbone, reducing internet latecy and jitter  
+- **Health Checks**: Performs health checks and automatically reroutes traffic to healthy endpoints  
+- **Application Protocols**:Supports tcp and UDP traffic, making it suitable for a wide range of application, including those requiring non-HTTP protocols  
+- **Use Cases**:Ideal for non-Http use cases such as gaming(UDP traffic), ioT,VoIP, or for services where having a static IP address is beneficial  
+
 
