@@ -70,6 +70,39 @@
 
 ![alt text](./Images/image14.png)
 
+## Serverless Services
 
+- With severless there are no instances to manage   
+- You dont need to provision hardware  
+- There is no management of operating systems of software  
+- Capacity provisioning and patching is handled automatically  
+- Provides automatic scaling and high availability  
+- Can be very cheap!  
 
+![alt text](./Images/image15.png)
+
+### AWS Lambda
+
+![alt text](./Images/image16.png)
+
+- Languages - Lambda natively supports Java, Go, PowerShell, Node.js, C#, Python and Ruby code   
+
+- Ececuting Role(IAM Role) - this role grants the function permissions to access AWS services and resources    
+
+- Memory and Timeout - you can specify the amount of memory allocated to a function and the maximum executing time   
+
+- Monitoring and Logging - integrates with Amazon CloudWatch  
+
+### Lambda Function Invocation
+
+- Lambda fucntions run in response to events from various AWS services or direct invocation from the AWS SDKs or API  
+
+- Functions can invoked synchronously or asynchronsouly:
+ - with synchronous invocation, applications wait for the function to process the event and return a response
+ - with asynchronous invocation, Lambda queues the event for processing and returns a response immediately
+- Lambda scales horizontally by running multiple instances of a function in parallel, up to the concurrency limit
+
+### Lambda to an Amazon VPC
+
+![alt](./Images/image17.png)
 
