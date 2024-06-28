@@ -95,14 +95,37 @@
 
 ### Lambda Function Invocation
 
-- Lambda fucntions run in response to events from various AWS services or direct invocation from the AWS SDKs or API  
+- Lambda fucntions run in response to events from various AWS services or direct invocation from the AWS SDKs or API    
 
-- Functions can invoked synchronously or asynchronsouly:
- - with synchronous invocation, applications wait for the function to process the event and return a response
- - with asynchronous invocation, Lambda queues the event for processing and returns a response immediately
-- Lambda scales horizontally by running multiple instances of a function in parallel, up to the concurrency limit
+- Functions can invoked synchronously or asynchronsouly:  
+ - with synchronous invocation, applications wait for the function to process the event and return a response  
+ - with asynchronous invocation, Lambda queues the event for processing and returns a response immediately  
+- Lambda scales horizontally by running multiple instances of a function in parallel, up to the concurrency limit  
 
 ### Lambda to an Amazon VPC
 
 ![alt](./Images/image17.png)
 
+## Application Integration Services
+
+### Event-Driven Architecture
+![alt](./Images/image18.png)
+
+### Amazon Simple Queue Service (SQS)
+![alt text](./Images/image19.png)
+
+### Amazon Simple Notification Service (SNS)
+![alt text](./Images/image20.png)
+
+### Amazon EventBridge
+Amazon EventBridge is a serverless event bus that connects loosely coupled application components together
+
+### Application Integration Services Comparison
+
+|  Service                    |   what it does                                                    | Example use cases                                                       |
+|:----------------------------|-------------------------------------------------------------------| ------------------------------------------------------------------------|
+| Simple Queue Service        | Messaging queue; store and forward patterns                       | Building distributed / decoupled application                            |
+| Simple Notification Service | set up, operate, and send notifications from the cloud            | Send email notification when CloudWatch alarm is triggered              |
+| Step Functions              | Coordination of AWS services with visual workflow                 | Oder processing workflows                                               |
+| Amazon MQ                   | Message broker service for Apache Active MQ and RabbitMQ          | Need a message queue that supports industry standard APIs and protocols |
+| Amazon EventBridge          | Serverless event bus for connecting applications and AWS services | Create event driven application                                         |
