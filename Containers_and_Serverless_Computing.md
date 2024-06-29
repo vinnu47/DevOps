@@ -118,7 +118,7 @@
 ![alt text](./Images/image20.png)
 
 ### Amazon EventBridge
-Amazon EventBridge is a serverless event bus that connects loosely coupled application components together
+Amazon EventBridge is a serverless event bus that connects loosely coupled application components together  
 
 ### Application Integration Services Comparison
 
@@ -129,3 +129,22 @@ Amazon EventBridge is a serverless event bus that connects loosely coupled appli
 | Step Functions              | Coordination of AWS services with visual workflow                 | Oder processing workflows                                               |
 | Amazon MQ                   | Message broker service for Apache Active MQ and RabbitMQ          | Need a message queue that supports industry standard APIs and protocols |
 | Amazon EventBridge          | Serverless event bus for connecting applications and AWS services | Create event driven application                                         |
+
+## Serverless Application with REST API
+![alt text](./Images/image21.png)
+
+### Rest API with Amazon API Gateway
+![alt text](./Images/image22.png)
+
+- A resource represents a path in your API  
+
+- Methods are created within resources and represent client-facing interfaces by which the client calls the API to access back-end resorces  
+
+![alt text](./Images/image23.png)
+
+- Event Sources - supports events from AWS services, SaaS applications, and custom applications    
+- Default and custome Event Buses - Offers a default bus for AWS events and supports creating custom buses for peronsal or third party app events  
+- Event filtering and routing- Events can be filtered and routed to differnet targets based on content-based filtering rules  
+- scalability and reliability - scales automatically with the number of events, handling millions of events per second  
+
+
