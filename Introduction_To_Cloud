@@ -1,0 +1,33 @@
+## cloud computing 
+- Private cloud-> You manage everything greater responsiblity+control   
+- Laas -> You manage from the virtual server upwards  
+- Paas->Your simily upload your code/data to create your application   
+- saas-> you simply consume the service+ little responsiblity+little control   
+
+HTTP(s)
+- A protocol is a language used for commmunication over a network.  
+- A port is like an open door behind which a specific service is working for connection.  
+
+HTTP Method
+- GET: The GET method retrieves information   
+- POST: The POST method is used to submit data   
+- PUT: The put method replaces data.   
+
+APIs
+- Stands for appplication programming interface   
+- APIs are a set of rules and protocols that allow computer programe talk to each other  
+- APIs assit with sharing information and data betweem these programmes.  
+- APIs leverage standard protocols such as http    
+- The APIs defines specific actions you can request.  
+- Every action you take on AWS is an API Call.  
+
+The 6 advantages of cloud computing  
+1. Trade capital expense for variable expense  
+2. Benifit from massive economies for scale  
+ - Aggregated usage across hundrends of thousand of customers lower variable costs from customers.  
+3. Stop guessing capacity  
+4. Increase speed and agility    
+Speed: Deploy resources easily and quickly  
+Aglitiy: React to change;  
+5. Stop spending money running and maintaing data centers.  
+6. go global in minutes.  

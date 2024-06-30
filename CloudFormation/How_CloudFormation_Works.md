@@ -14,8 +14,17 @@
  - Example:updating an EC2 instance type fro t2.micro to t2.large  
 - **Replacement**
  - Recreating the resource with new physcial ID  
- - Creates the new resource, change references from other resources to the new resource, then deletes the old resource  
- - Example:updating an RDS DB instance availability zone  
+ - Creates the new resource, change references from other resources to the new resource, then deletes the old resource   
+ - Example:updating an RDS DB instance availability zone    
 
+### How to Refeence a Parameter 
+- The Fn::Ref fucntion can be leveraged to reference parameters  
+- parameters can be used anywhere in a template, except:  
+ - AWSTemplateFormatVersion  
+ - Description   
+ - Transform  
+ - Mappings   
+- The shorthand for this in YAML is !Ref   
+- The function can also refernce other elements within the template    
 
 
