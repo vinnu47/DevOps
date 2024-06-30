@@ -98,8 +98,8 @@
 - Lambda fucntions run in response to events from various AWS services or direct invocation from the AWS SDKs or API    
 
 - Functions can invoked synchronously or asynchronsouly:  
- - with synchronous invocation, applications wait for the function to process the event and return a response  
- - with asynchronous invocation, Lambda queues the event for processing and returns a response immediately  
+  - with synchronous invocation, applications wait for the function to process the event and return a response  
+  - with asynchronous invocation, Lambda queues the event for processing and returns a response immediately  
 - Lambda scales horizontally by running multiple instances of a function in parallel, up to the concurrency limit  
 
 ### Lambda to an Amazon VPC
