@@ -36,3 +36,7 @@ $ apt install graphviz -y
 $ terraform graph | dot -Tsvg > graph.svg 
 ```
 
+```
+terraform apply - The terraform apply failed in spite of our validation working! This is because the validate command only carries out a general verification of the configuration. It validated the resource block and the argument syntax but not the values the arguments expect for a specific resource!
+```
+
