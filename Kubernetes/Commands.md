@@ -20,4 +20,14 @@ to create a resource from the manifest file
 ```
 kubectl create -f redis-definition.yaml
 ```
+to scale replicaset using command
+```
+kubectl scale rs new-replica-set --replicas=2
+```
+ to get all the information of all the pods or replicaset
+ ```
+ kubectl get all
+ ```
+
+ 
 
